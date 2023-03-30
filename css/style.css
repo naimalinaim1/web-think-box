@@ -27,6 +27,7 @@ img {
   border: 0;
   cursor: pointer;
 }
+
 .btn:hover {
   color: #ffffff;
   background: #005fac;
@@ -118,4 +119,49 @@ img {
 
 .feature-list li {
   margin: 10px 0;
+}
+
+/* plan */
+.plan {
+  margin-top: 130px;
+}
+
+.plan h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  color: #151414;
+}
+
+.plan-items {
+  margin-top: 55px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.plan-items div {
+  text-align: center;
+}
+
+.plan-items img {
+  width: 92px;
+  height: 92px;
+}
+
+.plan-items h4 {
+  margin-top: 25px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  color: #151414;
+}
+
+.plan-items p {
+  margin-top: 16px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  color: #737272;
 }
