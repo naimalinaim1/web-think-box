@@ -61,3 +61,61 @@ img {
   color: #ffffff;
   margin: 10px 0 56px;
 }
+
+/* main */
+/* feature */
+.feature {
+  margin-top: 130px;
+}
+
+.feature > .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 90;
+  align-items: center;
+}
+
+.feature-image {
+  max-width: 569px;
+}
+
+.feature-text {
+  max-width: 416px;
+}
+
+.feature-text h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+}
+
+.feature-text p,
+.feature-text ul {
+  color: #444343;
+}
+
+.feature-text p {
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 24px;
+}
+
+.feature-list {
+  margin-top: 16px;
+  padding-left: 35px;
+  list-style: none;
+}
+
+.feature-list li::before {
+  content: "\2022";
+  color: #16d887ed;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.feature-list li {
+  margin: 10px 0;
+}
